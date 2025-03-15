@@ -1,0 +1,30 @@
+*, x=0.724, y=0.170, frequency=1, skip=False, adjust=False
+    FlashJump, direction=left
+    BoltAnchor
+    SharkMissile, direction=left
+*, x=0.628, y=0.170, frequency=1, skip=False, adjust=False
+    FlashJump, direction=left
+    BoltAnchor
+*, x=0.509, y=0.170, frequency=1, skip=False, adjust=False
+    FlashJump, direction=left
+    BoltAnchor
+    Whirlwind, direction=left
+*, x=0.394, y=0.170, frequency=1, skip=False, adjust=False
+    FlashJump, direction=left
+    BoltAnchor
+    TidalWave
+*, x=0.233, y=0.170, frequency=1, skip=False, adjust=False
+    FlashJump, direction=right
+    BoltAnchor
+    SharkMissile, direction=right
+*, x=0.384, y=0.170, frequency=1, skip=False, adjust=False
+    FlashJump, direction=right
+    BoltAnchor
+*, x=0.518, y=0.170, frequency=1, skip=False, adjust=False
+    FlashJump, direction=right
+    BoltAnchor
+    Whirlwind, direction=right
+*, x=0.638, y=0.170, frequency=1, skip=False, adjust=False
+    FlashJump, direction=right
+    BoltAnchor
+    TidalWave
