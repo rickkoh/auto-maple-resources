@@ -143,10 +143,10 @@ class Buff(Command):
             press(Key.STATIC_CHARGE, 1, up_time=utils.rand_float(0.2, 0.25))
             self.static_charge_on = True
         if self.glory_of_guardians_cd == 0 or now - self.glory_of_guardians_cd > 120:
-            press(Key.GLORY_OF_GUARDIANS, 1, up_time=utils.rand_float(0.2, 0.25))
+            press(Key.GLORY_OF_GUARDIANS, 1, up_time=utils.rand_float(0.6, 0.7))
             self.glory_of_guardians_cd = now
         if self.extreme_blitz_cd == 0 or now - self.extreme_blitz_cd > 120:
-            press(Key.EXTREME_BLITZ, 1, up_time=utils.rand_float(0.2, 0.25))
+            press(Key.EXTREME_BLITZ, 1, up_time=utils.rand_float(0.6, 0.7))
             self.extreme_blitz_cd = now
         if self.buff_time == 0 or now - self.buff_time > settings.buff_cooldown:
             for key in buffs:
